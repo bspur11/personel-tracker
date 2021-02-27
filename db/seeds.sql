@@ -1,3 +1,5 @@
+
+=======
 USE workDB;
 
 INSERT INTO department (name)
@@ -36,3 +38,4 @@ INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Tay", "Jack", 4, 7);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Jackie", "Moonlight", 1, 2);
+
