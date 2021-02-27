@@ -1,25 +1,28 @@
-DROP TABLE IF EXISTS parties;
-DROP TABLE IF EXISTS candidates;
-DROP TABLE IF EXISTS voters;
+DROP DATABASE IF EXISTS workDB;
+
+CREATE DATABASE workDB;
+
+USE workDB;
 
 CREATE TABLE department (
-  id INTEGER PRIMARY KEY,
-  department_name VARCHAR(30) NOT NULL
-  
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(45) NULL,
+  PRIMARY KEY (id)
 );
 
-CREATE TABLE  role(
-  id INTEGER PRIMARY KEY,
-  title VARCHAR(30) NOT NULL,
-  salary DECIMAL(M,2) NOT NULL,
-  CONSTRAINT fk_employee FOREIGN KEY (employee_id) REFERENCES employee(id) ON DELETE CASCADE
+CREATE TABLE role (
+  id INT NOT NULL AUTO_INCREMENT,
+  title VARCHAR(45) NULL,
+  salary DECIMAL(10.3) NULL,
+  department_id INT NULL,
+  PRIMARY KEY (id)
 );
 
 CREATE TABLE employee (
-  id INTEGER PRIMARY KEY,
-  first_name VARCHAR(30) NOT NULL,
-  last_name VARCHAR(30) NOT NULL,
-  role_id INTEGER UNSIGNED NOT NULL,
-  manager_id INTEGER UNSIGNED NOT NULL,
-  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+  id INT NOT NULL AUTO_INCREMENT,
+  first_name VARCHAR(45) NULL,
+  last_name VARCHAR(45) NULL,
+  role_id INT NULL,
+  manager_id INT NULL,
+  PRIMARY KEY (id)
 );
