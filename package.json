@@ -1,0 +1,27 @@
+{
+  "name": "personel-tracker",
+  "version": "1.0.0",
+  "description": "tracking employees",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bspur11/personel-tracker.git"
+  },
+  "keywords": [
+    "brad"
+  ],
+  "author": "brad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bspur11/personel-tracker/issues"
+  },
+  "homepage": "https://github.com/bspur11/personel-tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^8.0.0",
+    "mysql2": "^2.2.5"
+  }
+}
