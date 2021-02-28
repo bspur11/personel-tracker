@@ -4,6 +4,8 @@ This is an Employee Tracker program designed for management to use to keep track
 
 ![Screenshot3](https://user-images.githubusercontent.com/63411329/109434322-b5869d00-79e2-11eb-9fd0-474d437cfe96.png)
 
+![Screenshot4](https://user-images.githubusercontent.com/63411329/109434273-8112e100-79e2-11eb-848b-ab5853eebf2f.png)
+
 ### How to Download
 To use this program one only needs to clone the repo or download the Zip file and extract the files, then open in a Terminal by navigating to the Personel-tracker folder and typing in 'node tracker.js' and the command line.
 
