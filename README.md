@@ -2,6 +2,7 @@
 
 This is an Employee Tracker program designed for management to use to keep track of company employees, their departments, the managers they report to and the saleries they are paid.
 
+![Screenshot3](https://user-images.githubusercontent.com/63411329/109434322-b5869d00-79e2-11eb-9fd0-474d437cfe96.png)
 
 ### How to Download
 To use this program one only needs to clone the repo or download the Zip file and extract the files, then open in a Terminal by navigating to the Personel-tracker folder and typing in 'node tracker.js' and the command line.
