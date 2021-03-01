@@ -45,3 +45,5 @@ Yah for Google and Phil
 Anyone can clone and contribute to the improvement of this app.
 
 ### A walk through video can be found here:
+
+https://drive.google.com/file/d/1-HeCtWzYzzOp4YSsBV_CfF0iw8kOytf1/view
