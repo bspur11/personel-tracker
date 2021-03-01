@@ -46,4 +46,6 @@ Anyone can clone and contribute to the improvement of this app.
 
 ### A walk through video can be found here:
 
-https://drive.google.com/file/d/1-HeCtWzYzzOp4YSsBV_CfF0iw8kOytf1/view
+https://drive.google.com/file/d/1hmiNY-8eQ5mnz-Po5S2-Oq9UWdpenM2e/view
+
+
